@@ -1,0 +1,8 @@
+subprojects {
+    apply plugin: 'java-library'
+
+    tasks.withType(JavaCompile) {
+        sourceCompatibility = 8
+        targetCompatibility = 8
+    }
+}
